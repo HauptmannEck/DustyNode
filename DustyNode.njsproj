@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08fe599f-c3b2-4686-844a-9adfcc14cf0e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>serverOLD.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,9 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="bin\www.js" />
+    <Compile Include="bin\www" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
+    <Compile Include="serverOLD.js" />
     <Content Include="obj\Debug\DustyNode.njsprojResolveAssemblyReference.cache" />
     <Content Include="package.json" />
     <Content Include="public\rings.svg" />
@@ -44,6 +45,7 @@
     <Content Include="views\index.jade" />
     <Content Include="views\layout.dust" />
     <Content Include="views\layout.jade" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
