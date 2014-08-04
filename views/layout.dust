@@ -24,7 +24,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: url(rings.svg);
+    background: url(/images/rings.svg);
 	background-size: 100% auto;
     background-repeat: no-repeat;
     z-index: -10;
