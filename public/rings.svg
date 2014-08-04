@@ -7,6 +7,9 @@
   <desc>Declarative SVG animation for rotating a circle.</desc>
   <g transform="translate(500, 500)"> <!-- Create a Cartesian coordinate system (with the y-axis flipped) for the animated square. That is, place the origin at the center of the 800 x 800 SVG viewport. --> 
     
+    <circle cx="0" cy="0" r="520" style="fill:rgba(0,0,0,0);stroke:purple; stroke-width:90; stroke-dasharray:1000, 500;">
+      <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0" to="-360" begin="0" dur="10s" repeatCount="indefinite" />
+    </circle>
     <circle cx="0" cy="0" r="420" style="fill:rgba(0,0,0,0);stroke:green; stroke-width:80; stroke-dasharray:250, 300;">
       <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0" to="-360" begin="0" dur="15s" repeatCount="indefinite" />
     </circle>
@@ -25,10 +28,8 @@
       <circle cx="0" cy="0" r="70" style="fill:rgba(0,0,0,0);stroke:green; stroke-width:30; stroke-dasharray:150, 20;">
       <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0" to="-360" begin="0" dur="2s" repeatCount="indefinite" />
     </circle>
-    <circle cx="0" cy="0" r="30" style="fill:rgba(0,0,0,0);stroke:red; stroke-width:30; stroke-dasharray:80, 20;">
+    <circle cx="0" cy="0" r="30" style="fill:rgba(0,0,0,0);stroke:red; stroke-width:25; stroke-dasharray:80, 20;">
       <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0" to="360" begin="0" dur="5s" repeatCount="indefinite" />
     </circle>
-    <line x1="-20" y1="0" x2="20" y2="0" style="stroke: black;" /> <!-- Represents the x-axis. -->
-    <line x1="0" y1="-20" x2="0" y2="20" style="stroke: black;" /> <!-- Represents the y-axis (although up is negative and down is positive). -->  
-  </g>
+    </g>
     </svg>

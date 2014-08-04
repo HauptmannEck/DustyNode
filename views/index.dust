@@ -1,165 +1,122 @@
 {>layout/}
 {<content}
-<p>
-    this is loaded from partial.
-</p>
-<p style="text-align: center;">
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
-<p>
-    ANother PARA
-</p>
+<div class="container">
+<div class="container-fluid">
+    <br>
+        <br>
+            <br>
+                <br>
+                    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row row-fluid">
+         <h1 class="pull-center" style="font-size:8em"><strong>LOCK</strong></h1>
+
+        <p class="lead pull-center">By Happy Bandit</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row row-fluid">
+        <div class="col-md-5 offsetHalf block">
+            <div class="pull-center">
+                 <h1>Android</h1>
+Currently on version 2.0
+                <br>
+                 <h1><i class="glyphicon glyphicon-phone icon-lrg"></i></h1>
+
+                <button class="btn btn-primary btn-flat">Go Here<i class="pull-right icon-chevron-right icon-large"></i>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-5 block">
+            <div class="pull-center">
+                	<h1>iPhone</h1>
+Not Yet Completed
+                <br>
+                	<h1><i class="glyphicon glyphicon-fire icon-lrg"></i></h1>
+
+                <button class="btn btn-primary btn-flat">Go There<i class="pull-right icon-chevron-right icon-large"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row row-fluid">
+        	<h3 class="pull-center">Featuring</h3>
+
+    </div>
+    <br>
+    <br>
+    <div class="row row-fluid">
+        <div class="col-md-12">
+            <div class="col-md-3 block block-sm offsetHalf1">
+                 <h2>Build</h2>
+Bootply is a playground for Twitter Bootstrap.</div>
+            <div class="col-md-3 block block-sm">
+                 <h2>Design</h2>
+Use Bootply to design, prototype, extend the Bootstrap framework.</div>
+            <div class="col-md-3 block block-sm">
+                 <h2>Test</h2>
+Use Bootply to test and debud Bootstrap designs.</div>
+    </div>
+</div>
+</div>
+</div>
+<!---/cont---->
+<br>
+<br>
+
+<br>
+<br>
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <div class="row row-fluid hidden-sm" id="slider-thumbs">
+        <div class="col-md-12">
+            <!-- Bottom switcher of slider -->
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-0">
+            <img src="http://placehold.it/170x100&amp;text=one" class="img-responsive">
+          </a>
+
+      </div>
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-1">
+            <img src="http://placehold.it/170x100&amp;text=two" class="img-responsive">
+          </a>
+
+      </div>
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-2">
+            <img src="http://placehold.it/170x100&amp;text=three" class="img-responsive">
+          </a>
+
+      </div>
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-3">
+            <img src="http://placehold.it/170x100&amp;text=four" class="img-responsive">
+          </a>
+
+      </div>
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-4">
+            <img src="http://placehold.it/170x100&amp;text=five" class="img-responsive">
+          </a>
+
+      </div>
+                <div class="col-md-2"> <a class="thumbnail" id="carousel-selector-5">
+            <img src="http://placehold.it/170x100&amp;text=six" class="img-responsive">
+          </a>
+
+      </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+<br>
+<br>
+</div>
 {/content}
