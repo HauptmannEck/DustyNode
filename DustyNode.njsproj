@@ -37,7 +37,6 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="server.js" />
-    <Content Include="obj\Debug\DustyNode.njsprojResolveAssemblyReference.cache" />
     <Content Include="package.json" />
     <Content Include="public\css\bootstrap-theme.css" />
     <Content Include="public\css\bootstrap-theme.css.map" />
@@ -50,7 +49,10 @@
     <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="public\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="public\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="public\rings.svg" />
+    <Content Include="public\images\apple.png" />
+    <Content Include="public\images\app_store_badge.svg" />
+    <Content Include="public\images\en_generic_rgb_wo_60.png" />
+    <Content Include="public\images\rings.svg" />
     <Content Include="README.md" />
     <Content Include="views\error.jade" />
     <Content Include="views\index.dust" />
@@ -61,8 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
-    <Folder Include="obj\" />
-    <Folder Include="obj\Debug\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="public\fonts\" />
