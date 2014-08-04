@@ -38,6 +38,18 @@
     {+content}
     This is the base Content
     {/content}
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p style="text-align:center">
+        © Happy Bandit - 2014
+        </p>
+    </footer>
+    <br>
+    <br>
+    <br>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
