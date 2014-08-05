@@ -12,7 +12,11 @@ body {
 }
 
 a:link, a:visited {
-	color:#eee;
+	color:#d4daff;
+}
+
+a:hover {
+    color:#9da1e6;
 }
 
 .block {

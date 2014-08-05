@@ -1,0 +1,173 @@
+{>layout/}
+{<header}
+<link href="http://www.bootply.com/bootply/bootply.css" type="text/css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<style>
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url(/images/rings.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+</style>
+{/header}
+{<content}
+<div class="overlay container-fluid"></div>
+<div class="container" style="height:80%;min-height:400px">
+    <div class="row row-fluid" style="margin-top:20%; margin-bottom:20%">
+        <h1 class="pull-center" style="font-size:8em">
+            <strong>LOCK</strong>
+        </h1>
+        <p class="lead pull-center"><strong>
+        <strong>
+            By <a href="/">Happy Bandit</a></p>
+        </strong>
+    </div>
+</div>
+<div class="container">
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row row-fluid">
+            <div class="col-md-5 offsetHalf block">
+                <div class="pull-center">
+                    <h1>Android</h1>
+                    Currently on version 2.0
+                    <br>
+                    <h1>
+                        <i class="glyphicon glyphicon-fire icon-lrg"></i>
+                    </h1>
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
+                        <img alt="Get it on Google Play"
+                        src="/images/en_generic_rgb_wo_60.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5 block">
+                <div class="pull-center">
+                    <h1>iPhone</h1>
+                    Not Yet Completed
+                    <br>
+                    <h1>
+                        <i class="glyphicon glyphicon-ban-circle icon-lrg"></i>
+                    </h1>
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
+                        <img alt="Get it on the App Store" style="height:60px"
+                        src="/images/app_store_badge.svg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
+        <br>
+        <div class="row row-fluid">
+            <h2 class="pull-center"><strong>Features</strong></h3>
+        </div>
+        <br>
+        <div class="row row-fluid">
+            <div class="col-md-12">
+                <div class="col-md-3 block block-sm offsetHalf1">
+                    <h2>Game Modes</h2>
+                    Currently 3 different modes including Standard, Practice and Pretty Colors
+                </div>
+                <div class="col-md-3 block block-sm">
+                    <h2>Color</h2>
+                    Change the number of colors and their phase during a game
+                </div>
+                <div class="col-md-3 block block-sm">
+                    <h2>UI</h2>
+                    Set menus to Portrait or Landscape, also change the speed of the animations or remove them entirely
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row row-fluid hidden-sm" id="slider-thumbs">
+            <div class="col-md-12">
+                <!-- Bottom switcher of slider -->
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-0">
+                        <img src="http://placehold.it/170x100&amp;text=one" class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-1">
+                        <img src="http://placehold.it/170x100&amp;text=two" class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-2">
+                        <img src="http://placehold.it/170x100&amp;text=three" class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-3">
+                        <img src="http://placehold.it/170x100&amp;text=four" class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-4">
+                        <img src="http://placehold.it/170x100&amp;text=five" class="img-responsive">
+                    </a>
+
+                </div>
+                <div class="col-md-2">
+                    <a class="thumbnail" id="carousel-selector-5">
+                        <img src="http://placehold.it/170x100&amp;text=six" class="img-responsive">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<footer>
+    <p style="text-align:center">
+        <a href="/">© Happy Bandit - 2014</a>
+    </p>
+</footer>
+<br>
+<br>
+<br>
+{/content}

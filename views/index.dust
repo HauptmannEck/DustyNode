@@ -1,140 +1,452 @@
 {>layout/}
+{<header}
+    <!-- Custom CSS -->
+    <link href="/css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+{/header}
 {<content}
-<div class="container" style="height:80%;min-height:400px">
-    <div class="row row-fluid" style="margin-top:20%; margin-bottom:20%">
-        <h1 class="pull-center" style="font-size:8em">
-            <strong>LOCK</strong>
-        </h1>
-        <p class="lead pull-center">By Happy Bandit</p>
-    </div>
-</div>
-<div class="container">
-    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row row-fluid">
-            <div class="col-md-5 offsetHalf block">
-                <div class="pull-center">
-                    <h1>Android</h1>
-                    Currently on version 2.0
-                    <br>
-                    <h1>
-                        <i class="glyphicon glyphicon-fire icon-lrg"></i>
-                    </h1>
-                    <br>
-                    <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
-                        <img alt="Get it on Google Play"
-                        src="/images/en_generic_rgb_wo_60.png" />
-                    </a>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Happy Bandit</a>
             </div>
-            <div class="col-md-5 block">
-                <div class="pull-center">
-                    <h1>iPhone</h1>
-                    Not Yet Completed
-                    <br>
-                    <h1>
-                        <i class="glyphicon glyphicon-ban-circle icon-lrg"></i>
-                    </h1>
-                    <br>
-                    <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
-                        <img alt="Get it on the App Store" style="height:60px"
-                        src="/images/app_store_badge.svg" />
-                    </a>
-                </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <!-- <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li> -->
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
-        <br>
-        <div class="row row-fluid">
-            <h2 class="pull-center"><strong>Features</strong></h3>
-        </div>
-        <br>
-        <div class="row row-fluid">
-            <div class="col-md-12">
-                <div class="col-md-3 block block-sm offsetHalf1">
-                    <h2>Game Modes</h2>
-                    Currently 3 different modes including Standard, Practice and Pretty Colors
-                </div>
-                <div class="col-md-3 block block-sm">
-                    <h2>Color</h2>
-                    Change the number of colors and their phase during a game
-                </div>
-                <div class="col-md-3 block block-sm">
-                    <h2>UI</h2>
-                    Set menus to Portrait or Landscape, also change the speed of the animations or remove them entirely
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" style="width: 20%" src="/images/portfolio/ufo.svg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Happy Bandit</span>
+                        <hr class="star-light">
+                        <span class="skills">Web Development - Mobile Apps - Game Development</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row row-fluid hidden-sm" id="slider-thumbs">
-            <div class="col-md-12">
-                <!-- Bottom switcher of slider -->
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-0">
-                        <img src="http://placehold.it/170x100&amp;text=one" class="img-responsive">
-                    </a>
+    </header>
 
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
                 </div>
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-1">
-                        <img src="http://placehold.it/170x100&amp;text=two" class="img-responsive">
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/gamepad.svg" class="img-responsive" alt="">
                     </a>
-
                 </div>
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-2">
-                        <img src="http://placehold.it/170x100&amp;text=three" class="img-responsive">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/meteor.svg" class="img-responsive" alt="">
                     </a>
-
                 </div>
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-3">
-                        <img src="http://placehold.it/170x100&amp;text=four" class="img-responsive">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/lcdtv.svg" class="img-responsive" alt="">
                     </a>
-
                 </div>
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-4">
-                        <img src="http://placehold.it/170x100&amp;text=five" class="img-responsive">
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/gamepad.svg" class="img-responsive" alt="">
                     </a>
-
                 </div>
-                <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-5">
-                        <img src="http://placehold.it/170x100&amp;text=six" class="img-responsive">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/meteor.svg" class="img-responsive" alt="">
                     </a>
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/submarine.svg" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Single person development studio. Not very good at writing long sentences about itself.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Works closely with other studios on Game Development projects</p>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Minneapolis, MN</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3> <s>Around the Web </s></h3>
+                        <ul class="list-inline">
+                            <!-- <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li> -->
+                            <!-- <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Template</h3>
+                        <p>Freelance - Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <p>
+                            Icons from <a href="http://flat-icons.com/">Flat Icons</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Happy Bandit 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
-</div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <a href="games/lock">
+                                <h2>Lock</h2>
+                            </a>
+                            <hr class="star-primary">
+                            <a href="games/lock">
+                                <img src="/images/LockIcon.png" class="img-responsive img-centered circular-modal" alt="">
+                            </a>
+                            <p>Lock down the rings in this simple timing game. This visually dynamic game challenges you to improve your reaction speed and observation skills. How many rings can you lock in place before you miss-click.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong>Self
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>May 2014
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Mobile Game
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2><a href="http://www.outerzonestudios.com/">Hungry In Space</a></h2>
+                            <hr class="star-primary">
+                            <a href="http://www.outerzonestudios.com/">
+                                <img src="/images/HIS.jpg" class="img-responsive img-centered circular-modal" alt="">
+                            </a>
+                            <p>Hungry in Space is a quirky 2D action game that will be available on Android and iPhone devices</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.outerzonestudios.com/">OuterZone Studios</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>2013 - 2014
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Mobile Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Happy Bandit Webpage</h2>
+                            <hr class="star-primary">
+                            <img src="/images/portfolio/satelite.svg" class="img-responsive img-centered" alt="">
+                            <p>Using Node.js, Dust.js, Bootstrap, and Express this basic website was created as a mixture of practicing Node.js and creating a site I can link to for Happy Bandit</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong>Start Bootstrap
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>August 2014
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="/images/portfolio/wallet.svg" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="/images/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="/images/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
 {/content}
+{<scripts}
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+{/scripts}
