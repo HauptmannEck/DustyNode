@@ -145,10 +145,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Single person development studio. Not very good at writing long sentences about itself.</p>
+                    <p>Single person development studio. Not very good at writing long sentences about itself.Works closely with other studios on Game Development projects</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Works closely with other studios on Game Development projects</p>
+                    <p>Primary Technologies include .Net, C#, LibGDX, HTML, CSS, JS</p>
+                    <p>Currently learning Node.js and Dust.js</p>
                 </div>
             </div>
         </div>
