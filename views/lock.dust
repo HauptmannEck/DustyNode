@@ -109,8 +109,9 @@
     <br>
     <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
         <br>
-        <br>
-        <br>
+        <div class="row row-fluid">
+            <h2 class="pull-center"><strong>Stills(ToDo)</strong></h3>
+        </div>
         <br>
         <div class="row row-fluid hidden-sm" id="slider-thumbs">
             <div class="col-md-12">
@@ -157,6 +158,27 @@
         <br>
         <br>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
+        <br>
+        <br>
+        <div class="pull-center block block-sm" style="font-size:2em">
+        <br>
+            For Comments, Issues, and Questions goto the Github page
+            <br>
+            <a href="https://github.com/HappyBandit/Lock/issues">https://github.com/HappyBandit/Lock/issues</a>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
 </div>
 <br>
 <br>
