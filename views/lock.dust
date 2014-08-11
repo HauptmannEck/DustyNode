@@ -9,7 +9,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  background: url(/images/rings.svg);
+  background: url(/img/rings.svg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   z-index: -10;
@@ -47,7 +47,7 @@
                     <br>
                     <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
                         <img alt="Get it on Google Play"
-                        src="/images/en_generic_rgb_wo_60.png" />
+                        src="/img/en_generic_rgb_wo_60.png" />
                     </a>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <br>
                     <a href="https://play.google.com/store/apps/details?id=com.Happy_Bandit.Lock.android">
                         <img alt="Get it on the App Store" style="height:60px"
-                        src="/images/app_store_badge.svg" />
+                        src="/img/app_store_badge.svg" />
                     </a>
                 </div>
             </div>
@@ -110,45 +110,45 @@
     <div class="container-fluid" style="background-color:rgba(0,0,0,0.2)">
         <br>
         <div class="row row-fluid">
-            <h2 class="pull-center"><strong>Stills(ToDo)</strong></h3>
+            <h2 class="pull-center"><strong>Stills</strong></h3>
         </div>
         <br>
-        <div class="row row-fluid hidden-sm" id="slider-thumbs">
+        <div class="row row-fluid" id="slider-thumbs">
             <div class="col-md-12">
                 <!-- Bottom switcher of slider -->
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-0">
-                        <img src="http://placehold.it/170x100&amp;text=one" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen1">
+                        <img src="/img/Screen1.png" class="img-responsive">
                     </a>
 
                 </div>
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-1">
-                        <img src="http://placehold.it/170x100&amp;text=two" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen2">
+                        <img src="/img/Screen2.png" class="img-responsive">
                     </a>
 
                 </div>
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-2">
-                        <img src="http://placehold.it/170x100&amp;text=three" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen3">
+                        <img src="/img/Screen3.png" class="img-responsive">
                     </a>
 
                 </div>
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-3">
-                        <img src="http://placehold.it/170x100&amp;text=four" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen4">
+                        <img src="/img/Screen4.png" class="img-responsive">
                     </a>
 
                 </div>
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-4">
-                        <img src="http://placehold.it/170x100&amp;text=five" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen5">
+                        <img src="/img/Screen5.png" class="img-responsive">
                     </a>
 
                 </div>
                 <div class="col-md-2">
-                    <a class="thumbnail" id="carousel-selector-5">
-                        <img src="http://placehold.it/170x100&amp;text=six" class="img-responsive">
+                    <a class="thumbnail" data-toggle="lightbox" href="#Screen6">
+                        <img src="/img/Screen1.png" class="img-responsive">
                     </a>
 
                 </div>
@@ -192,4 +192,46 @@
 <br>
 <br>
 <br>
+<div id="Screen1" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen1.png">
+        </div>
+    </div>
+</div>
+<div id="Screen2" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen2.png">
+        </div>
+    </div>
+</div>
+<div id="Screen3" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen3.png">
+        </div>
+    </div>
+</div>
+<div id="Screen4" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen4.png">
+        </div>
+    </div>
+</div>
+<div id="Screen5" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen5.png">
+        </div>
+    </div>
+</div>
+<div id="Screen6" class="lightbox fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-dialog'>
+        <div class='lightbox-content'>
+            <img src="/img/Screen1.png">
+        </div>
+    </div>
+</div>
 {/content}
