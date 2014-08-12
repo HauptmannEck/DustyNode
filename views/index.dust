@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" style="width: 20%" src="/images/portfolio/ufo.svg" alt="">
+                    <img class="img-responsive" style="width: 20%" src="/img/portfolio/ufo.svg" alt="">
                     <div class="intro-text">
                         <span class="name">Happy Bandit</span>
                         <hr class="star-light">
@@ -77,7 +77,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/gamepad.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/gamepad.svg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -87,7 +87,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/meteor.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/meteor.svg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -97,7 +97,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/lcdtv.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/lcdtv.svg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!-- <div class="col-sm-4 portfolio-item">
@@ -107,7 +107,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/gamepad.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/gamepad.svg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -117,7 +117,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/meteor.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/meteor.svg" class="img-responsive" alt="">
                     </a>
                 </div> -->
                 <!-- <div class="col-sm-4 portfolio-item">
@@ -127,7 +127,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img style="width:80%; margin: 0 auto" src="/images/portfolio/submarine.svg" class="img-responsive" alt="">
+                        <img style="width:80%; margin: 0 auto" src="/img/portfolio/submarine.svg" class="img-responsive" alt="">
                     </a>
                 </div> -->
             </div>
@@ -230,7 +230,7 @@
                             </a>
                             <hr class="star-primary">
                             <a href="games/lock">
-                                <img src="/images/LockIcon.png" class="img-responsive img-centered circular-modal" alt="">
+                                <img src="/img/LockIcon.png" class="img-responsive img-centered circular-modal" alt="">
                             </a>
                             <p>Lock down the rings in this simple timing game. This visually dynamic game challenges you to improve your reaction speed and observation skills. How many rings can you lock in place before you miss-click.</p>
                             <ul class="list-inline item-details">
@@ -269,7 +269,7 @@
                             <h2><a href="http://www.outerzonestudios.com/">Hungry In Space</a></h2>
                             <hr class="star-primary">
                             <a href="http://www.outerzonestudios.com/">
-                                <img src="/images/HIS.jpg" class="img-responsive img-centered circular-modal" alt="">
+                                <img src="/img/HIS.jpg" class="img-responsive img-centered circular-modal" alt="">
                             </a>
                             <p>Hungry in Space is a quirky 2D action game that will be available on Android and iPhone devices</p>
                             <ul class="list-inline item-details">
@@ -307,7 +307,7 @@
                         <div class="modal-body">
                             <h2>Happy Bandit Webpage</h2>
                             <hr class="star-primary">
-                            <img src="/images/portfolio/satelite.svg" class="img-responsive img-centered" alt="">
+                            <img src="/img/portfolio/satelite.svg" class="img-responsive img-centered" alt="">
                             <p>Using Node.js, Dust.js, Bootstrap, and Express this basic website was created as a mixture of practicing Node.js and creating a site I can link to for Happy Bandit</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -344,7 +344,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="/images/portfolio/wallet.svg" class="img-responsive img-centered" alt="">
+                            <img src="/img/portfolio/wallet.svg" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -381,7 +381,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="/images/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <img src="/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -418,7 +418,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="/images/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <img src="/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
