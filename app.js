@@ -9,6 +9,7 @@ var cons = require('consolidate');
 
 var routes = require('./routes/index');
 var games = require('./routes/games');
+var okcupid = require('./routes/okcupid');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/games', games);
+app.use('/okcupid', okcupid);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

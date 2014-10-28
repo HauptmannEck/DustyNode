@@ -1,0 +1,158 @@
+{>layout/}
+{<header}
+    <!-- Custom CSS -->
+    <link href="/css/darkly.css" rel="stylesheet"/>
+	<style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+{/header}
+{<content}
+<body>
+
+<script>
+$(document).ready(function() {
+
+	$('#loginForm').submit(function(event) {
+	
+		var formData = {
+			'username' 				: $('input[name=username]').val(),
+			'password' 			: $('input[name=password]').val()
+		};
+
+		$.ajax({
+			type 		: 'POST',
+			url 		: 'login/', 
+			data 		: JSON.stringify(formData), 
+			dataType 	: 'json',
+			contentType : 'application/json'
+		})
+			.done(function(data) {
+
+				console.log(data); 
+				var str = '';
+				for (var i in data.stalkers) {
+					str += '<div class="col-sm-4 portfolio-item">';
+					str += '<img src="http://k0.okccdn.com/php/load_okc_image.php/images/'+ data.stalkers[i].thumbnail +'" border="0" alt="An image of ' + data.stalkers[i].username + '" width="160" height="160">';
+					str += data.stalkers[i].username;
+					str += '</div>'
+				}
+				$("#stalkers").html(str);
+			});
+
+		event.preventDefault();
+	});
+	$("#postLogin").click(function()
+	{		
+		$("#loginForm").submit();
+	
+	});
+});
+
+</script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Login
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <form id="loginForm" name="loginForm">
+			<div class="field">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+			</div>
+
+			<div class="field">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+			</div>
+
+			<div class="field">
+			</div>
+		</form>
+				<button id="postLogin">Send</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Visitors
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+            <div class="row" id="stalkers">
+                <div class="col-sm-4 portfolio-item">
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          User Profile
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <!-- /.container -->
+
+
+{/content}
+{<scripts}
+{/scripts}
