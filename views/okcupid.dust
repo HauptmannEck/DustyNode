@@ -34,12 +34,16 @@ $(document).ready(function() {
 				console.log(data); 
 				var str = '';
 				for (var i in data.stalkers) {
+					var user = data.stalkers[i];
 					str += '<div class="col-sm-4 portfolio-item">';
-					str += '<img src="http://k0.okccdn.com/php/load_okc_image.php/images/'+ data.stalkers[i].thumbnail +'" border="0" alt="An image of ' + data.stalkers[i].username + '" width="160" height="160">';
-					str += data.stalkers[i].username;
-					str += '</div>'
+					var position = user.location_detail.position;
+					str += '<a href="http://maps.google.com/?q='+ position.latitude +','+ position.longitude +'" target="_blank">';
+					str += '<img src="http://k0.okccdn.com/php/load_okc_image.php/images/'+ user.thumbnail +'" border="0" alt="An image of ' + user.username + '" width="160" height="160"></a>';
+					str += user.username;
+					str += '</div>';
 				}
 				$("#stalkers").html(str);
+				$('#collapseTwo').collapse('show');
 			});
 
 		event.preventDefault();
@@ -47,6 +51,37 @@ $(document).ready(function() {
 	$("#postLogin").click(function()
 	{		
 		$("#loginForm").submit();
+	
+	});
+
+	
+	$('#getUserForm').submit(function(event) {
+	
+		var formData = {
+			'username' 				: $('input[name=username]').val(),
+			'password' 				: $('input[name=password]').val(),
+			'profile' 				: $('input[name=getUser]').val()
+		};
+
+		$.ajax({
+			type 		: 'POST',
+			url 		: 'GetProfile/', 
+			data 		: JSON.stringify(formData), 
+			dataType 	: 'json',
+			contentType : 'application/json'
+		})
+			.done(function(data) {
+
+				console.log(data); 
+				var str = JSON.stringify(data);
+				$("#userProfile").html(str);
+			});
+
+		event.preventDefault();
+	});
+	$("#postGetUser").click(function()
+	{		
+		$("#getUserForm").submit();
 	
 	});
 });
@@ -143,7 +178,20 @@ $(document).ready(function() {
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
       <div class="panel-body">
-        
+        <div>
+			<form id="getUserForm" name="loginForm">
+				<div class="field">
+					<label for="getUser">Get User Profile:</label>
+					<input type="text" id="getUser" name="getUser" required>
+				</div>
+
+				<div class="field">
+				</div>
+			</form>
+					<button id="postGetUser">Send</button>
+		</div>
+		<div id="userProfile">
+		</div>
       </div>
     </div>
   </div>

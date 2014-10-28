@@ -14,13 +14,27 @@ router.post('/login', function (req, resp) {
     okc.login(req.body.username, req.body.password, getVisitorsList);
 
     function getVisitorsList(err, res, body) {
-        okc.getVisitors(getProfiles);
+        okc.getVisitors(returnVisitors);
     };
-    function getProfiles(err, res, body) {
+    function returnVisitors(err, res, body) {
         for (var i in body.stalkers) {
             console.log('user: ' + body.stalkers[i].username);
-            //okc.getUserProfile(body.stalkers[i].username, GetSingleUserProfile);
         }
+        resp.status(200).send(body);
+    }
+});
+
+/* POST Check Login. */
+router.post('/GetProfile', function (req, resp) {
+    console.log('username: ' + req.body.username);
+    okc.login(req.body.username, req.body.password, getSingleUserProfile);
+    
+    function getSingleUserProfile(err, res, body) {
+        console.log('user: ' + req.body.profile);
+        okc.getUserProfile(req.body.profile, returnProfile);
+    }
+    
+    function returnProfile(err, res, body) {
         resp.status(200).send(body);
     }
 });
